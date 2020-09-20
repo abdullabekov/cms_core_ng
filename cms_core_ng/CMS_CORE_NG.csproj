@@ -46,7 +46,6 @@
     <Folder Include="Areas\Admin\Views\UserRole\" />
     <Folder Include="Areas\Admin\Views\User\" />
     <Folder Include="Areas\Admin\Views\SiteSettings\" />
-    <Folder Include="Areas\Admin\Views\Profile\" />
     <Folder Include="wwwroot\fonts\" />
   </ItemGroup>
 
