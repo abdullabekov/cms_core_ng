@@ -1,0 +1,12 @@
+C:\Users\mrden\source\repos\CMS_CORE_NG\CookieService\bin\Debug\netcoreapp3.1\CookieService.deps.json
+C:\Users\mrden\source\repos\CMS_CORE_NG\CookieService\bin\Debug\netcoreapp3.1\CookieService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\CookieService\bin\Debug\netcoreapp3.1\CookieService.pdb
+C:\Users\mrden\source\repos\CMS_CORE_NG\CookieService\bin\Debug\netcoreapp3.1\LoggingService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\CookieService\bin\Debug\netcoreapp3.1\LoggingService.pdb
+C:\Users\mrden\source\repos\CMS_CORE_NG\CookieService\obj\Debug\netcoreapp3.1\CookieService.csprojAssemblyReference.cache
+C:\Users\mrden\source\repos\CMS_CORE_NG\CookieService\obj\Debug\netcoreapp3.1\CookieService.AssemblyInfoInputs.cache
+C:\Users\mrden\source\repos\CMS_CORE_NG\CookieService\obj\Debug\netcoreapp3.1\CookieService.AssemblyInfo.cs
+C:\Users\mrden\source\repos\CMS_CORE_NG\CookieService\obj\Debug\netcoreapp3.1\CookieService.csproj.CoreCompileInputs.cache
+C:\Users\mrden\source\repos\CMS_CORE_NG\CookieService\obj\Debug\netcoreapp3.1\CookieService.csproj.CopyComplete
+C:\Users\mrden\source\repos\CMS_CORE_NG\CookieService\obj\Debug\netcoreapp3.1\CookieService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\CookieService\obj\Debug\netcoreapp3.1\CookieService.pdb
