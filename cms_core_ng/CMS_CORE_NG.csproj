@@ -38,6 +38,7 @@
     <ProjectReference Include="..\DataService\DataService.csproj" />
     <ProjectReference Include="..\FiltersService\FiltersService.csproj" />
     <ProjectReference Include="..\LoggingService\LoggingService.csproj" />
+    <ProjectReference Include="..\UserService\UserService.csproj" />
   </ItemGroup>
 
   <ItemGroup>

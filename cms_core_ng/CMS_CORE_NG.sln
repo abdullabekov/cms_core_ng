@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelService", "..\ModelSer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalService", "..\FunctionalService\FunctionalService.csproj", "{DBE22DCE-6819-4937-B504-0FA83B7B6090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiltersService", "..\FiltersService\FiltersService.csproj", "{C20C5399-BB64-4CC0-B912-2651F0567768}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiltersService", "..\FiltersService\FiltersService.csproj", "{C20C5399-BB64-4CC0-B912-2651F0567768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "..\AuthService\AuthService.csproj", "{40F55C60-4971-4183-9655-CA55010C3211}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthService", "..\AuthService\AuthService.csproj", "{40F55C60-4971-4183-9655-CA55010C3211}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieService", "..\CookieService\CookieService.csproj", "{28021BB0-A359-483C-97BF-630ED7DA0F69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookieService", "..\CookieService\CookieService.csproj", "{28021BB0-A359-483C-97BF-630ED7DA0F69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivityService", "..\ActivityService\ActivityService.csproj", "{E28AEA46-F637-4969-BF8D-102C43F6B560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActivityService", "..\ActivityService\ActivityService.csproj", "{E28AEA46-F637-4969-BF8D-102C43F6B560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "..\UserService\UserService.csproj", "{BBAE1FC0-3B8B-47A3-9C0D-2B2E21C84E30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{E28AEA46-F637-4969-BF8D-102C43F6B560}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E28AEA46-F637-4969-BF8D-102C43F6B560}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E28AEA46-F637-4969-BF8D-102C43F6B560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBAE1FC0-3B8B-47A3-9C0D-2B2E21C84E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAE1FC0-3B8B-47A3-9C0D-2B2E21C84E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAE1FC0-3B8B-47A3-9C0D-2B2E21C84E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAE1FC0-3B8B-47A3-9C0D-2B2E21C84E30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
