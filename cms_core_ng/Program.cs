@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using CountryService;
 using DataService;
 using FunctionalService;
 using LoggingService;
@@ -32,8 +33,9 @@ namespace CMS_CORE_NG
                     var context = services.GetRequiredService<ApplicationDbContext>();
                     var dpContext = services.GetRequiredService<DataProtectionKeysContext>();
                     var functionalSvc = services.GetRequiredService<IFunctionalSvc>();
+                    var countrySvc = services.GetRequiredService<ICountrySvc>();
 
-                    DbContextInitializer.Initialize(dpContext, context, functionalSvc).Wait();
+                    DbContextInitializer.Initialize(dpContext, context, functionalSvc, countrySvc).Wait();
                 }
                 catch (Exception ex)
                 {

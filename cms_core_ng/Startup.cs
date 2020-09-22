@@ -1,6 +1,7 @@
 using ActivityService;
 using AuthService;
 using CookieService;
+using CountryService;
 using DataService;
 using FiltersService;
 using FunctionalService;
@@ -20,6 +21,7 @@ using Microsoft.IdentityModel.Tokens;
 using ModelService;
 using System;
 using System.Text;
+using UserService;
 
 namespace CMS_CORE_NG
 {
@@ -87,6 +89,9 @@ namespace CMS_CORE_NG
             services.Configure<DataProtectionKeys>(dataProtectionSection);
             services.AddDataProtection().PersistKeysToDbContext<DataProtectionKeysContext>();
 
+            //USER HELPER SERVICE
+            services.AddTransient<IUserSvc, UserSvc>();
+
             // APPSETTINGS SERVICE
             var appSettingsSection = Configuration.GetSection("AppSettings");
             services.Configure<AppSettings>(appSettingsSection);
@@ -123,6 +128,9 @@ namespace CMS_CORE_NG
             services.AddHttpContextAccessor();
             services.AddTransient<CookieOptions>();
             services.AddTransient<ICookieSvc, CookieSvc>();
+
+            //Country Service
+            services.AddTransient<ICountrySvc, CountrySvc>();
 
             // AuthenticationSchemes SERVICE
             services.AddAuthentication("Administrator")

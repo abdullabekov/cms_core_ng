@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CountryService\CountryService.csproj" />
     <ProjectReference Include="..\FunctionalService\FunctionalService.csproj" />
     <ProjectReference Include="..\LoggingService\LoggingService.csproj" />
     <ProjectReference Include="..\ModelService\ModelService.csproj" />

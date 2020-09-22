@@ -1626,10 +1626,28 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "CountryService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "LoggingService": "1.0.0",
+          "ModelService": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CountryService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CountryService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "DataService/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "CountryService": "1.0.0",
           "FunctionalService": "1.0.0",
           "LoggingService": "1.0.0",
           "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": "3.1.7",
@@ -5562,6 +5580,11 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "CountryService/1.0.0": {
+      "type": "project",
+      "path": "../CountryService/CountryService.csproj",
+      "msbuildProject": "../CountryService/CountryService.csproj"
     },
     "DataService/1.0.0": {
       "type": "project",

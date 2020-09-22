@@ -9,10 +9,12 @@ using Microsoft.Extensions.Options;
 using Microsoft.Extensions.DependencyInjection;
 using ModelService;
 using UserService;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CMS_CORE_NG.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(AuthenticationSchemes = "Admin")]
     public class ProfileController : Controller
     {
         private readonly ICookieSvc _cookieSvc;
@@ -39,19 +41,22 @@ namespace CMS_CORE_NG.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            return View();
+            await SetAdminBaseViewModel();
+            return View("Index", _adminBaseViewModel);
         }
 
         [HttpGet]
         public async Task<IActionResult> Security()
         {
-            return View();
+            await SetAdminBaseViewModel();
+            return View("Security", _adminBaseViewModel);
         }
 
         [HttpGet]
         public async Task<IActionResult> Activity()
         {
-            return View();
+            await SetAdminBaseViewModel();
+            return View("Activity", _adminBaseViewModel);
         }
 
         private async Task SetAdminBaseViewModel()
