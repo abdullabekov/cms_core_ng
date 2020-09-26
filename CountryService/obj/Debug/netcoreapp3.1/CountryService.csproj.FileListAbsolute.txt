@@ -1,0 +1,14 @@
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\bin\Debug\netcoreapp3.1\CountryService.deps.json
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\bin\Debug\netcoreapp3.1\CountryService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\bin\Debug\netcoreapp3.1\CountryService.pdb
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\bin\Debug\netcoreapp3.1\LoggingService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\bin\Debug\netcoreapp3.1\ModelService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\bin\Debug\netcoreapp3.1\LoggingService.pdb
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\bin\Debug\netcoreapp3.1\ModelService.pdb
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\obj\Debug\netcoreapp3.1\CountryService.csprojAssemblyReference.cache
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\obj\Debug\netcoreapp3.1\CountryService.AssemblyInfoInputs.cache
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\obj\Debug\netcoreapp3.1\CountryService.AssemblyInfo.cs
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\obj\Debug\netcoreapp3.1\CountryService.csproj.CoreCompileInputs.cache
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\obj\Debug\netcoreapp3.1\CountryService.csproj.CopyComplete
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\obj\Debug\netcoreapp3.1\CountryService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\CountryService\obj\Debug\netcoreapp3.1\CountryService.pdb

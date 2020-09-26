@@ -20,3 +20,5 @@ C:\Users\mrden\source\repos\CMS_CORE_NG\AuthService\obj\Debug\netcoreapp3.1\Auth
 C:\Users\mrden\source\repos\CMS_CORE_NG\AuthService\obj\Debug\netcoreapp3.1\AuthService.csproj.CopyComplete
 C:\Users\mrden\source\repos\CMS_CORE_NG\AuthService\obj\Debug\netcoreapp3.1\AuthService.dll
 C:\Users\mrden\source\repos\CMS_CORE_NG\AuthService\obj\Debug\netcoreapp3.1\AuthService.pdb
+C:\Users\mrden\source\repos\CMS_CORE_NG\AuthService\bin\Debug\netcoreapp3.1\CountryService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\AuthService\bin\Debug\netcoreapp3.1\CountryService.pdb

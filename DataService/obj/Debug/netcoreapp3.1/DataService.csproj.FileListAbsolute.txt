@@ -17,3 +17,5 @@ C:\Users\mrden\source\repos\CMS_CORE_NG\DataService\obj\Debug\netcoreapp3.1\Data
 C:\Users\mrden\source\repos\CMS_CORE_NG\DataService\obj\Debug\netcoreapp3.1\DataService.dll
 C:\Users\mrden\source\repos\CMS_CORE_NG\DataService\obj\Debug\netcoreapp3.1\DataService.pdb
 C:\Users\mrden\source\repos\CMS_CORE_NG\DataService\obj\Debug\netcoreapp3.1\DataService.genruntimeconfig.cache
+C:\Users\mrden\source\repos\CMS_CORE_NG\DataService\bin\Debug\netcoreapp3.1\CountryService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\DataService\bin\Debug\netcoreapp3.1\CountryService.pdb

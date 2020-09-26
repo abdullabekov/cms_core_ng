@@ -16,3 +16,5 @@ C:\Users\mrden\source\repos\CMS_CORE_NG\FiltersService\obj\Debug\netcoreapp3.1\F
 C:\Users\mrden\source\repos\CMS_CORE_NG\FiltersService\obj\Debug\netcoreapp3.1\FiltersService.csproj.CopyComplete
 C:\Users\mrden\source\repos\CMS_CORE_NG\FiltersService\obj\Debug\netcoreapp3.1\FiltersService.dll
 C:\Users\mrden\source\repos\CMS_CORE_NG\FiltersService\obj\Debug\netcoreapp3.1\FiltersService.pdb
+C:\Users\mrden\source\repos\CMS_CORE_NG\FiltersService\bin\Debug\netcoreapp3.1\CountryService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\FiltersService\bin\Debug\netcoreapp3.1\CountryService.pdb

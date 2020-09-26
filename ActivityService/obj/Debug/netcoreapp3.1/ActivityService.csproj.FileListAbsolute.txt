@@ -16,3 +16,5 @@ C:\Users\mrden\source\repos\CMS_CORE_NG\ActivityService\obj\Debug\netcoreapp3.1\
 C:\Users\mrden\source\repos\CMS_CORE_NG\ActivityService\obj\Debug\netcoreapp3.1\ActivityService.csproj.CopyComplete
 C:\Users\mrden\source\repos\CMS_CORE_NG\ActivityService\obj\Debug\netcoreapp3.1\ActivityService.dll
 C:\Users\mrden\source\repos\CMS_CORE_NG\ActivityService\obj\Debug\netcoreapp3.1\ActivityService.pdb
+C:\Users\mrden\source\repos\CMS_CORE_NG\ActivityService\bin\Debug\netcoreapp3.1\CountryService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\ActivityService\bin\Debug\netcoreapp3.1\CountryService.pdb

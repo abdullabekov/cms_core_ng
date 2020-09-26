@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "DataService/1.0.0": {
         "dependencies": {
+          "CountryService": "1.0.0",
           "FunctionalService": "1.0.0",
           "LoggingService": "1.0.0",
           "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": "3.1.7",
@@ -1031,6 +1032,15 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
+      "CountryService/1.0.0": {
+        "dependencies": {
+          "LoggingService": "1.0.0",
+          "ModelService": "1.0.0"
+        },
+        "runtime": {
+          "CountryService.dll": {}
+        }
+      },
       "FunctionalService/1.0.0": {
         "dependencies": {
           "LoggingService": "1.0.0",
@@ -1860,6 +1870,11 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "CountryService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "FunctionalService/1.0.0": {
       "type": "project",

@@ -82,6 +82,24 @@ namespace CMS_CORE_NG.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Countries",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CountryId = table.Column<int>(nullable: false),
+                    TwoDigitCode = table.Column<string>(nullable: true),
+                    Name = table.Column<string>(nullable: true),
+                    PhoneCode = table.Column<string>(nullable: true),
+                    Flag = table.Column<string>(nullable: true),
+                    States = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Countries", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "AspNetRoleClaims",
                 columns: table => new
                 {
@@ -322,6 +340,9 @@ namespace CMS_CORE_NG.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "Countries");
 
             migrationBuilder.DropTable(
                 name: "Tokens");

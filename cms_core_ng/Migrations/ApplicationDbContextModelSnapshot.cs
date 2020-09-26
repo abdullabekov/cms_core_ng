@@ -352,6 +352,36 @@ namespace CMS_CORE_NG.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
+            modelBuilder.Entity("ModelService.CountryModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("CountryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Flag")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("States")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TwoDigitCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Countries");
+                });
+
             modelBuilder.Entity("ModelService.TokenModel", b =>
                 {
                     b.Property<int>("Id")

@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -124,6 +125,9 @@ namespace CMS_CORE_NG
             // ACTIVITY SERVICE
             services.AddTransient<IActivitySvc, ActivitySvc>();
 
+            // Country Service
+            services.AddTransient<ICountrySvc, CountrySvc>();
+
             // Cookie Helper Service
             services.AddHttpContextAccessor();
             services.AddTransient<CookieOptions>();
@@ -136,6 +140,23 @@ namespace CMS_CORE_NG
             services.AddAuthentication("Administrator")
                 .AddScheme<AdminAuthenticationOptions, AdminAuthenticationHandler>("Admin", null);
 
+            // Enable CORS
+            services.AddCors(options => {
+                options.AddPolicy("EnableCORS", builder =>
+                {
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().Build();
+                });
+            });
+
+            // Enable API Versioning
+            services.AddApiVersioning(
+                options => {
+                    options.ReportApiVersions = true;
+                    options.AssumeDefaultVersionWhenUnspecified = true;
+                    options.DefaultApiVersion = new ApiVersion(1, 0);
+                });
+
+            // Razor Pages Runtime SERVICE
             services.AddMvc()
                 .AddControllersAsServices()
                 .AddRazorRuntimeCompilation()
@@ -157,6 +178,7 @@ namespace CMS_CORE_NG
             }
 
             app.UseHttpsRedirection();
+            app.UseCors("EnableCORS");
             app.UseStaticFiles();
             if (!env.IsDevelopment())
             {
