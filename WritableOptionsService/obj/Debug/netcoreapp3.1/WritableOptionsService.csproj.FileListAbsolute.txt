@@ -1,0 +1,12 @@
+C:\Users\mrden\source\repos\CMS_CORE_NG\WritableOptionsService\bin\Debug\netcoreapp3.1\WritableOptionsService.deps.json
+C:\Users\mrden\source\repos\CMS_CORE_NG\WritableOptionsService\bin\Debug\netcoreapp3.1\WritableOptionsService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\WritableOptionsService\obj\Debug\netcoreapp3.1\WritableOptionsService.csprojAssemblyReference.cache
+C:\Users\mrden\source\repos\CMS_CORE_NG\WritableOptionsService\obj\Debug\netcoreapp3.1\WritableOptionsService.AssemblyInfoInputs.cache
+C:\Users\mrden\source\repos\CMS_CORE_NG\WritableOptionsService\obj\Debug\netcoreapp3.1\WritableOptionsService.AssemblyInfo.cs
+C:\Users\mrden\source\repos\CMS_CORE_NG\WritableOptionsService\bin\Debug\netcoreapp3.1\WritableOptionsService.pdb
+C:\Users\mrden\source\repos\CMS_CORE_NG\WritableOptionsService\bin\Debug\netcoreapp3.1\LoggingService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\WritableOptionsService\bin\Debug\netcoreapp3.1\LoggingService.pdb
+C:\Users\mrden\source\repos\CMS_CORE_NG\WritableOptionsService\obj\Debug\netcoreapp3.1\WritableOptionsService.csproj.CoreCompileInputs.cache
+C:\Users\mrden\source\repos\CMS_CORE_NG\WritableOptionsService\obj\Debug\netcoreapp3.1\WritableOptionsService.csproj.CopyComplete
+C:\Users\mrden\source\repos\CMS_CORE_NG\WritableOptionsService\obj\Debug\netcoreapp3.1\WritableOptionsService.dll
+C:\Users\mrden\source\repos\CMS_CORE_NG\WritableOptionsService\obj\Debug\netcoreapp3.1\WritableOptionsService.pdb

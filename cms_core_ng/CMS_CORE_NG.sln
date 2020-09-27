@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "..\UserServi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountryService", "..\CountryService\CountryService.csproj", "{AED4FDAD-F5EE-4D6C-9B8D-51DF5C3894BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritableOptionsService", "..\WritableOptionsService\WritableOptionsService.csproj", "{F824279F-54ED-4046-8CE3-EB12E82645DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeService", "..\AttributeService\AttributeService.csproj", "{EB14FC1A-F880-4D22-B7FB-B3B4C51E6D82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{AED4FDAD-F5EE-4D6C-9B8D-51DF5C3894BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AED4FDAD-F5EE-4D6C-9B8D-51DF5C3894BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AED4FDAD-F5EE-4D6C-9B8D-51DF5C3894BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F824279F-54ED-4046-8CE3-EB12E82645DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F824279F-54ED-4046-8CE3-EB12E82645DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F824279F-54ED-4046-8CE3-EB12E82645DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F824279F-54ED-4046-8CE3-EB12E82645DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB14FC1A-F880-4D22-B7FB-B3B4C51E6D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB14FC1A-F880-4D22-B7FB-B3B4C51E6D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB14FC1A-F880-4D22-B7FB-B3B4C51E6D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB14FC1A-F880-4D22-B7FB-B3B4C51E6D82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

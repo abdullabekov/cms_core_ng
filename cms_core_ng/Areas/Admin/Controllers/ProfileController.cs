@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using ModelService;
 using UserService;
 using Microsoft.AspNetCore.Authorization;
+using WritableOptionsService;
 
 namespace CMS_CORE_NG.Areas.Admin.Controllers
 {
@@ -22,6 +23,7 @@ namespace CMS_CORE_NG.Areas.Admin.Controllers
         private readonly DataProtectionKeys _dataProtectionKeys;
         private readonly AppSettings _appSettings;
         private readonly IUserSvc _userSvc;
+        private readonly IWritableSvc<SiteWideSettings> _writableSiteWideSettings;
         private static AdminBaseViewModel _adminBaseViewModel;
 
         public ProfileController(
@@ -29,6 +31,7 @@ namespace CMS_CORE_NG.Areas.Admin.Controllers
                 ICookieSvc cookieSvc,
                 IServiceProvider provider,
                 IOptions<DataProtectionKeys> dataProtectionKeys,
+                IWritableSvc<SiteWideSettings> writableSiteWideSettings,
                 IOptions<AppSettings> appSettings)
         {
             _userSvc = userSvc;
@@ -36,6 +39,7 @@ namespace CMS_CORE_NG.Areas.Admin.Controllers
             _provider = provider;
             _dataProtectionKeys = dataProtectionKeys.Value;
             _appSettings = appSettings.Value;
+            _writableSiteWideSettings = writableSiteWideSettings;
         }
 
         [HttpGet]
@@ -73,7 +77,7 @@ namespace CMS_CORE_NG.Areas.Admin.Controllers
                 AppSetting = null,
                 Dashboard = null,
                 ResetPassword = resetPassword,
-                SiteWideSetting = null
+                SiteWideSetting = _writableSiteWideSettings.Value
             };
         }
     }
