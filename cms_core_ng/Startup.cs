@@ -3,6 +3,7 @@ using AuthService;
 using CMS_CORE_NG.Extensions;
 using CookieService;
 using CountryService;
+using DashboardService;
 using DataService;
 using FiltersService;
 using FunctionalService;
@@ -132,6 +133,9 @@ namespace CMS_CORE_NG
 
             // Country Service
             services.AddTransient<ICountrySvc, CountrySvc>();
+
+            // Dashboard SERVICE
+            services.AddTransient<IDashboardSvc, DashboardSvc>();
 
             // Cookie Helper Service
             services.AddHttpContextAccessor();

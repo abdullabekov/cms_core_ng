@@ -9,6 +9,7 @@ using ModelService;
 using UserService;
 using WritableOptionsService;
 using System;
+using DashboardService;
 
 namespace CMS_CORE_NG.Areas.Admin.Controllers
 {
@@ -21,13 +22,14 @@ namespace CMS_CORE_NG.Areas.Admin.Controllers
         private readonly IServiceProvider _provider;
         private readonly DataProtectionKeys _dataProtectionKeys;
         private readonly AppSettings _appSettings;
+        private readonly IDashboardSvc _dashboardSvc;
         private readonly IWritableSvc<SiteWideSettings> _writableSiteWideSettings;
         private AdminBaseViewModel _adminBaseViewModel;
 
         public HomeController(IUserSvc userSvc, ICookieSvc cookieSvc,
             IServiceProvider provider,
             IOptions<DataProtectionKeys> dataProtectionKeys, IOptions<AppSettings> appSettings,
-            IWritableSvc<SiteWideSettings> writableSiteWideSettings)
+            IWritableSvc<SiteWideSettings> writableSiteWideSettings, IDashboardSvc dashboardSvc)
         {
             _userSvc = userSvc;
             _cookieSvc = cookieSvc;
@@ -35,6 +37,7 @@ namespace CMS_CORE_NG.Areas.Admin.Controllers
             _dataProtectionKeys = dataProtectionKeys.Value;
             _appSettings = appSettings.Value;
             _writableSiteWideSettings = writableSiteWideSettings;
+            _dashboardSvc = dashboardSvc;
         }
 
         public async Task<IActionResult> Index()
@@ -43,13 +46,15 @@ namespace CMS_CORE_NG.Areas.Admin.Controllers
             var protector = protectorProvider.CreateProtector(_dataProtectionKeys.ApplicationUserKey);
             var userProfile = await _userSvc.GetUserProfileByIdAsync(protector.Unprotect(_cookieSvc.Get("user_id")));
             var addUserModel = new AddUserModel();
+            var dashboard = await _dashboardSvc.GetDashboardData();
 
             _adminBaseViewModel = new AdminBaseViewModel
             {
                 Profile = userProfile,
                 AddUser = addUserModel,
                 AppSetting = _appSettings,
-                SiteWideSetting = _writableSiteWideSettings.Value
+                SiteWideSetting = _writableSiteWideSettings.Value,
+                Dashboard = dashboard
             };
             return View("Index", _adminBaseViewModel);
         }

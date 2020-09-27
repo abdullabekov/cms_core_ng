@@ -1,7 +1,6 @@
 C:\Users\mrden\source\repos\CMS_CORE_NG\ModelService\bin\Debug\netcoreapp3.1\ModelService.deps.json
 C:\Users\mrden\source\repos\CMS_CORE_NG\ModelService\bin\Debug\netcoreapp3.1\ModelService.dll
 C:\Users\mrden\source\repos\CMS_CORE_NG\ModelService\bin\Debug\netcoreapp3.1\ModelService.pdb
-C:\Users\mrden\source\repos\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.csprojAssemblyReference.cache
 C:\Users\mrden\source\repos\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.AssemblyInfoInputs.cache
 C:\Users\mrden\source\repos\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.AssemblyInfo.cs
 C:\Users\mrden\source\repos\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.csproj.CoreCompileInputs.cache

@@ -23,6 +23,7 @@
         @await Html.PartialAsync("_SidebarLayout")
         <div id="content">
             @await Html.PartialAsync("_TopbarLayout")
+            @await Html.PartialAsync("_StatsLayout")
             @RenderBody()
         </div>
     </div>

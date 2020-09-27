@@ -38,6 +38,7 @@
     <ProjectReference Include="..\AuthService\AuthService.csproj" />
     <ProjectReference Include="..\CookieService\CookieService.csproj" />
     <ProjectReference Include="..\CountryService\CountryService.csproj" />
+    <ProjectReference Include="..\DashboardService\DashboardService.csproj" />
     <ProjectReference Include="..\DataService\DataService.csproj" />
     <ProjectReference Include="..\FiltersService\FiltersService.csproj" />
     <ProjectReference Include="..\LoggingService\LoggingService.csproj" />
