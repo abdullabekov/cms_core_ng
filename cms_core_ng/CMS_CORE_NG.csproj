@@ -34,6 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AttributeService\AttributeService.csproj" />
     <ProjectReference Include="..\AuthService\AuthService.csproj" />
     <ProjectReference Include="..\CookieService\CookieService.csproj" />
     <ProjectReference Include="..\CountryService\CountryService.csproj" />
@@ -41,13 +42,13 @@
     <ProjectReference Include="..\FiltersService\FiltersService.csproj" />
     <ProjectReference Include="..\LoggingService\LoggingService.csproj" />
     <ProjectReference Include="..\UserService\UserService.csproj" />
+    <ProjectReference Include="..\WritableOptionsService\WritableOptionsService.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Views\EmailSettings\" />
     <Folder Include="Areas\Admin\Views\UserRole\" />
     <Folder Include="Areas\Admin\Views\User\" />
-    <Folder Include="Areas\Admin\Views\SiteSettings\" />
     <Folder Include="wwwroot\fonts\" />
   </ItemGroup>
 

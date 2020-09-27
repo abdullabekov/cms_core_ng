@@ -1,4 +1,5 @@
-﻿<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top">
+﻿@model ModelService.AdminBaseViewModel
+<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top">
     <!-- Sidebar Toggle (Topbar) -->
     <button type="button" id="sidebarCollapse" class="btn btn-link rounded-circle mr-3" style="outline:none !important; box-shadow:none;">
         <i class="fas fa-bars"></i>
@@ -10,8 +11,8 @@
         <!-- Nav Item - User Information -->
         <li class="nav-item dropdown no-arrow">
             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small"></span>
-                <img class="img-profile rounded-circle" src="">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">@Model.Profile.Firstname @Model.Profile.Lastname</span>
+                <img class="img-profile rounded-circle" src="@Model.Profile.ProfilePic">
             </a>
             <!-- Dropdown - User Information -->
             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
