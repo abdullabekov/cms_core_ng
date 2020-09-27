@@ -12,6 +12,12 @@
     ]
   },
   {
+    "outputFileName": "wwwroot/lib/custom/css/admin/user.min.css",
+    "inputFiles": [
+      "wwwroot/lib/custom/css/admin/user.css"
+    ]
+  },
+  {
     "outputFileName": "wwwroot/lib/custom/js/admin/admin.min.js",
     "inputFiles": [
       "wwwroot/lib/custom/js/admin/admin.js"

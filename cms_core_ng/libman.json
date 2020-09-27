@@ -41,6 +41,10 @@
     {
       "library": "jquery-validation-unobtrusive@3.2.11",
       "destination": "wwwroot\\lib\\jquery-validation-unobtrusive"
+    },
+    {
+      "library": "tabulator@4.4.3",
+      "destination": "wwwroot\\lib\\tabulator"
     }
   ]
 }
