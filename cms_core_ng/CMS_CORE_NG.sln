@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeService", "..\Attr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardService", "..\DashboardService\DashboardService.csproj", "{43C5724F-1427-4AE9-B57A-22FAC3FB9EFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendService", "..\BackendService\BackendService.csproj", "{BD4BBC5C-240A-4C67-B135-407881ECA7A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{43C5724F-1427-4AE9-B57A-22FAC3FB9EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43C5724F-1427-4AE9-B57A-22FAC3FB9EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43C5724F-1427-4AE9-B57A-22FAC3FB9EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4BBC5C-240A-4C67-B135-407881ECA7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4BBC5C-240A-4C67-B135-407881ECA7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4BBC5C-240A-4C67-B135-407881ECA7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4BBC5C-240A-4C67-B135-407881ECA7A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

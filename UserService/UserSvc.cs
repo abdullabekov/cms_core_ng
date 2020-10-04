@@ -226,7 +226,6 @@ namespace UserService
             return false;
         }
 
-
         public async Task<bool> AddUserActivity(ActivityModel model)
         {
             try

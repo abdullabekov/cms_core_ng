@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ActivityService\ActivityService.csproj" />
+    <ProjectReference Include="..\CookieService\CookieService.csproj" />
+    <ProjectReference Include="..\LoggingService\LoggingService.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -458,9 +458,9 @@ function EditUser(postData) {
         type: 'PUT',
         url: "/api/v1/user/edituser/" + userId,
         data: postData,
-        headers: {
-            'X-XSRF-TOKEN': getCookie("XSRF-TOKEN"),
-        },
+        //headers: {
+        //    'X-XSRF-TOKEN': getCookie("XSRF-TOKEN"),
+        //},
         contentType: false,
         processData: false,
         success: function (result) {

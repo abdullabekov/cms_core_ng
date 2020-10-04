@@ -88,8 +88,11 @@ namespace CookieService
                 string userIp = GetUserIP();
                 string info = new WebClient().DownloadString("http://ipinfo.io/" + userIp);
                 var ipInfo = JsonConvert.DeserializeObject<IpInfo>(info);
-                RegionInfo regionalInfo = new RegionInfo(ipInfo.Country);
-                ipInfo.Country = regionalInfo.EnglishName;
+                if (ipInfo.Country != null)
+                {
+                    RegionInfo regionalInfo = new RegionInfo(ipInfo.Country);
+                    ipInfo.Country = regionalInfo.EnglishName;
+                }
 
                 if (!string.IsNullOrEmpty(userIp))
                 {

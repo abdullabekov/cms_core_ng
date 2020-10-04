@@ -1,5 +1,6 @@
 using ActivityService;
 using AuthService;
+using BackendService;
 using CMS_CORE_NG.Extensions;
 using CookieService;
 using CountryService;
@@ -127,6 +128,9 @@ namespace CMS_CORE_NG
 
             // AUTH SERVICE
             services.AddTransient<IAuthSvc, AuthSvc>();
+
+            // ADMIN SERVICE
+            services.AddTransient<IAdminSvc, AdminSvc>();
 
             // ACTIVITY SERVICE
             services.AddTransient<IActivitySvc, ActivitySvc>();
