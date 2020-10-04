@@ -1,9 +1,0 @@
-C:\Users\mrden\source\repos\CMS_CORE_NG\AttributeService\bin\Debug\netcoreapp3.1\AttributeService.deps.json
-C:\Users\mrden\source\repos\CMS_CORE_NG\AttributeService\bin\Debug\netcoreapp3.1\AttributeService.dll
-C:\Users\mrden\source\repos\CMS_CORE_NG\AttributeService\obj\Debug\netcoreapp3.1\AttributeService.csprojAssemblyReference.cache
-C:\Users\mrden\source\repos\CMS_CORE_NG\AttributeService\obj\Debug\netcoreapp3.1\AttributeService.AssemblyInfoInputs.cache
-C:\Users\mrden\source\repos\CMS_CORE_NG\AttributeService\obj\Debug\netcoreapp3.1\AttributeService.AssemblyInfo.cs
-C:\Users\mrden\source\repos\CMS_CORE_NG\AttributeService\bin\Debug\netcoreapp3.1\AttributeService.pdb
-C:\Users\mrden\source\repos\CMS_CORE_NG\AttributeService\obj\Debug\netcoreapp3.1\AttributeService.csproj.CoreCompileInputs.cache
-C:\Users\mrden\source\repos\CMS_CORE_NG\AttributeService\obj\Debug\netcoreapp3.1\AttributeService.dll
-C:\Users\mrden\source\repos\CMS_CORE_NG\AttributeService\obj\Debug\netcoreapp3.1\AttributeService.pdb
